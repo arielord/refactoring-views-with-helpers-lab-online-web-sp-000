@@ -1,6 +1,5 @@
 module ApplicationHelper
-  def display_artist(artist)
-    if artist.name != ""
-      link_to artist.name
+  def display_artist(song)
+    song.artist_name
   end
 end
