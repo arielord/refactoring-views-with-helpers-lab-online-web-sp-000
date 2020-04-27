@@ -1,5 +1,5 @@
 module ArtistsHelper
   def display_artist(artist)
-    artist.name
+    link_to artist.name, artist_path
   end
 end
